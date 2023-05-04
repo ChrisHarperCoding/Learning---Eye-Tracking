@@ -1,5 +1,4 @@
 # Learning - Eye Tracking
-  # Please enter the commit message for your changes. Lines starting # with '#' will be ignored, and an empty message aborts the commit. # Tired, so saving and will look at later # On branch main # Your branch is up to date with 'origin/main'. # # Changes to be committed: #	deleted:    Calendar - V1.py #	deleted:    Calendar - V2.py #	deleted:    Calendar - V3.py #	new file:   Calendar - V5 #
 
 Project Name: EyeTracker
 
