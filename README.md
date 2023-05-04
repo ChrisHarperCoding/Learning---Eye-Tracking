@@ -11,6 +11,70 @@ OpenCV
 Dlib
 NumPy
 PyQt5
+
+To easily check and install the dependencies:
+
+Create a requirements.txt file in the project directory and list all the required packages:
+
+opencv-python==4.5.4.58
+dlib==19.22.0
+numpy==1.21.2
+PyQt5==5.15.6
+
+
+Open a terminal (Command Prompt on Windows, Terminal on macOS or Linux) and navigate to the project directory using the cd command. 
+
+Replace path/to/project with the actual path to the project folder:
+
+cd path/to/project
+
+
+Ensure Python 3.8 or higher is installed on the system. The installed version can be checked by running:
+
+python --version
+
+or
+
+python3 --version
+
+
+If Python is not installed or the version is lower than 3.8, download the latest version from the official website: https://www.python.org/downloads/
+
+It is recommended to create a virtual environment for the project to isolate its dependencies. To create a virtual environment, run the following command:
+
+python -m venv venv
+
+or
+
+python3 -m venv venv
+
+
+Activate the virtual environment:
+On Windows:
+
+venv\Scripts\activate
+
+
+On macOS or Linux:
+
+source venv/bin/activate
+
+
+The terminal prompt should now display (venv) at the beginning, indicating that the virtual environment is active.
+
+Install the dependencies listed in the requirements.txt file by running:
+
+pip install -r requirements.txt
+
+
+This command will automatically check, download, and install the specified versions of the packages in the virtual environment.
+
+With these instructions, a virtual environment with all the required dependencies for the project can be set up. It is important to keep the virtual environment activated. To deactivate the virtual environment, simply run:
+
+deactivate
+
+--------------- 
+
 File Structure:
 
 lua
