@@ -143,8 +143,6 @@ File Structure:
 
 
 
-lua
-Copy code
 EyeTracker/
 |-- app/
 |   |-- __init__.py
